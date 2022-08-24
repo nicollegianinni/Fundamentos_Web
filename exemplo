@@ -1,0 +1,30 @@
+
+
+letras
+h1 {
+color: purple;
+font-family: verdana;
+font-size: 40 px;
+text-align: center;
+}
+
+
+fundo
+div.a {
+    background-color: pink;
+}
+
+imagem
+img{
+    display: block;
+    margin-left: 100%;
+    margin-right: 100%
+    width: 30%;
+}
+
+foto
+
+</div classe ="a">
+<img src="assets/foto fundo blog pessoal.png" alt="foto perfil nicolle">
+<br><br>
+</div>
