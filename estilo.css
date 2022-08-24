@@ -1,45 +1,42 @@
+
+body{
+    background-image: url(../Fundamentos_Web/assets/foto\ backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 h1{ 
     color:purple;
-    font-family: verdana; 
+    font-family: Arial; 
     font-size: 40 px;
     text-align: center;
 }
 
 h2{
     color: blueviolet;
-    font-family: Lucida ;
+    font-family: arial ;
     font-size: 40 px;
     text-align: center;
 
 }
 
 h4{
-    color: darkslategray;
-
+    color: rgb(255, 255, 255);
+    font-style: montserrat;
 }
 
 h3{
-    color:darkviolet;
-
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
 }
 
-
-div.a {
-    background-color: pink;
-}
 
 img{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width: 100%;
-    transition: all;
+    
+    
 }
 
-img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 30%;
-    transition: all;
-}
