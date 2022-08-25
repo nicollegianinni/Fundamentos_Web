@@ -1,0 +1,49 @@
+
+body{
+
+    background-image: url(../img/foto\ backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{ 
+    color:rgb(255, 255, 255);
+    font-family: Arial; 
+    font-size: 40 px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: arial ;
+    font-size: 40 px;
+    text-align: center;
+
+}
+
+
+h3{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    size: 0cm;
+}
+
+h5{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+h6{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+
+
+

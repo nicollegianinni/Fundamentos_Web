@@ -24,7 +24,62 @@ img{
 
 foto
 
-</div classe ="a">
-<img src="assets/foto fundo blog pessoal.png" alt="foto perfil nicolle">
-<br><br>
-</div>
+
+
+var nome = window.document.getElementById('nome') //usa se tambem 'let' para declarar variavel
+
+nome.style.width = '30%';
+
+function validarNome ()  {
+
+    let txtNome = document.getElementById('txtNome')
+    if(nome.value.length < 2) {
+        txtNome.innerHTML = 'Nome Invalido!'
+        txtNome.style.color = 'red'
+        nomeOK =false
+        
+    }else{
+        txtNome.innerHTML = 'Nome valido!'
+        txtNome.style.color = 'green'
+        nomeOK=true
+    }
+
+
+function enviar (){
+    if (nomeOK==true){
+        alert ('Formulario enviado com sucesso!')
+
+    }else {
+        alert ('Preencha corretamente!')
+    }
+}
+
+
+
+CSS
+colors
+
+h1{ 
+    color:purple;
+    font-family: Arial; 
+    font-size: 40 px;
+    text-align: center;
+}
+
+h2{
+    color: blueviolet;
+    font-family: arial ;
+    font-size: 40 px;
+    text-align: center;
+
+}
+
+h4{
+    color: rgb(96, 60, 97);
+    font-style: montserrat;
+}
+
+h3{
+    color:rgb(96, 60, 97);
+    font-family: sans-serif;
+}

@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
+    <link rel="stylesheet" href="assets/CS/estilo.css">
 
 </head>
+
 <body>
-   <h1>Entre em contato</h1> 
+
+    <div id="cabecario">
+        <h3>
+            <ul>
+                <!--navegar por paginas -->
+                <li>
+                    <a href="index.html">Home</a>
+                    <!--para trocar a pagina acrescente apos a url do site o | target="blank" |ele abre em nome guia o seu link-->
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contatos</a>
+                </li>
+            </ul>
+        </h3>
+    </div>
+    <br><br>
+
+    <h1>Entre em contato</h1>
+
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id='txtNome'></div>
+                <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email" onkeyup='validaEmail()'>
+                <div id='txtEmail'></div>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id='txtAssunto'></div>
+                <br><br>
+                <button onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+
+
+        <div class="container ml-50">
+
+            <h3>Outros contatos:</h3>
+            <a href="https://github.com/nicollegianinni" target="_blank" ><img src="assets/img/foto git hub.PNG" height="200" width="300"
+                    alt="foto Github nicolle"></a>
+            <br><br>
+            <a href="https://www.linkedin.com/in/nicolle-gianinni-41895a238/"target="_blank" ><img src="assets/img/foto linkedin.PNG"
+                    height="200" width="300" alt="foto linkedin nicolle"></a>
+            <br><br>
+            <h3>Endereço:</h3>
+
+            <h5>
+                <p>Estrada das Ubaias 400,
+            </h5>
+            </p>
+            <p>casa forte - PE</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.682094717945!2d-34.92174928522047!3d-8.031675994216476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab19a66a06f241%3A0x3baaf4170d4c56ec!2sEstrada%20das%20Ubaias%2C%20400%20-%20Casa%20Forte%2C%20Recife%20-%20PE%2C%2052061-080!5e0!3m2!1spt-BR!2sbr!4v1661223758689!5m2!1spt-BR!2sbr"
+                width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                eferrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            </form>
+            <footer>Whitten by Nicolle Gianinni</footer>
+
+            <script src="assets/JS/script.js"></Script>
 
 </body>
-<ul>
-    <!--navegar por paginas -->
-    <li>
-        <a href="index.html">Home</a>   <!--para trocar a pagina acrescente apos a url do site o | target="blank" |ele abre em nome guia o seu link-->
-    </li>
-    <li>
-        <a href="contato.html">Contatos</a>   
-    </li>
-</ul>
-
-<form>
-<label for = "nome">Nome:</label><br>
-<input type="text" id="nome">
-<br><br>
-
-<label for = "email">E-mail:</label><br>
-<input type="email" id="email">  
-<br><br>
-
-<label for = "Assunto">Assunto</label><br>
-<textarea name="assunto" id="assunto" cols="30" rows="5"> </textarea> 
-<br><br>
-<button>Enviar</button>
-<br><br><br>
-
-<h3>Outros contatos:</h3>
-<a href="https://github.com/nicollegianinni"><img src="assets/foto git hub.PNG" height="200" width="300" alt="foto Github nicolle"></a>
-<br><br>
-<a href="https://www.linkedin.com/in/nicolle-gianinni-41895a238/"><img src="assets/foto linkedin.PNG" height="200" width="300" alt="foto linkedin nicolle"></a>
-<br><br>
-<h3>Endereço:</h3>
-
-<h5> <p>Estrada das Ubaias 400,</h5></p>
-<p>casa forte - PE</p>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.682094717945!2d-34.92174928522047!3d-8.031675994216476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab19a66a06f241%3A0x3baaf4170d4c56ec!2sEstrada%20das%20Ubaias%2C%20400%20-%20Casa%20Forte%2C%20Recife%20-%20PE%2C%2052061-080!5e0!3m2!1spt-BR!2sbr!4v1661223758689!5m2!1spt-BR!2sbr" 
-width="400" 
-height="150" 
-style="border:0;" 
-allowfullscreen="" 
-loading="lazy" 
-eferrerpolicy="no-referrer-when-downgrade">
-</iframe>
-
-</form>
 
 
 </html>
